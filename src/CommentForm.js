@@ -1,6 +1,6 @@
 // imports
-import React, { Component } from ‘react’;
-import style from ‘./style’;
+import React, { Component } from 'react';
+import style from './style';
 
 class CommentForm extends Component {
   constructor(props) {
@@ -36,17 +36,17 @@ class CommentForm extends Component {
        />
        // What they would like to comment
        <input
-         type=’text’
-         placeholder=’Say something…’
+         type='text'
+         placeholder='Say something…'
          style={ style.commentFormText}
          value={ this.state.text }
          onChange={ this.handleTextChange }
        />
        // Submit button
        <input
-         type=’submit’
+         type='submit'
          style={ style.commentFormPost }
-         value=’Post’
+         value='Post'
         />
       </form>
     )

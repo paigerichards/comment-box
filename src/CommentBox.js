@@ -1,12 +1,12 @@
 // importing req files
 import React, { Component } from 'react';
-import CommentList from ‘./CommentList’;
-import CommentForm from ‘./CommentForm’;
-import DATA from ‘../data’;
-import style from ‘./style’;
+import CommentList from './CommentList';
+import CommentForm from './CommentForm';
+import DATA from './data';
+import style from './style';
 
 // Addressing box class
-class CommentBox {
+class CommentBox extends Component {
   // initalizing props and data state
   constructor(props) {
     super(props);
