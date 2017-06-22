@@ -26,7 +26,6 @@ class CommentForm extends Component {
   render(){
     return(
       <form style={ style.commentForm } onSubmit={ this.handleSubmit }>
-      // Author input, their name
        <input
          type='text'
          placeholder='Your name…'
@@ -34,7 +33,7 @@ class CommentForm extends Component {
          value={ this.state.author }
          onChange={ this.handleAuthorChange }
        />
-       // What they would like to comment
+
        <input
          type='text'
          placeholder='Say something…'
@@ -42,7 +41,6 @@ class CommentForm extends Component {
          value={ this.state.text }
          onChange={ this.handleTextChange }
        />
-       // Submit button
        <input
          type='submit'
          style={ style.commentFormPost }

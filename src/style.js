@@ -1,4 +1,3 @@
-//style.js
 const style = {
  commentBox: {
  width:'80vw',
